@@ -118,6 +118,16 @@ RECORD_REPEATABLE_FIELDS = """<record>
   </datafield>
 </record>"""
 
+RECORD_SUBFIELD_ORDER = """<record>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Paris :</subfield>
+    <subfield code="b">Gauthier-Villars ;</subfield>
+    <subfield code="a">Chicago :</subfield>
+    <subfield code="b">University of Chicago Press,</subfield>
+    <subfield code="c">1955.</subfield>
+  </datafield>
+</record>"""
+
 RECORDS = {
     "base": RECORD,
     "simple": RECORD_SIMPLE,
